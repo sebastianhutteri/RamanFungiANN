@@ -135,8 +135,7 @@ class Classifier:
         for i in range(self.NSpecies):
             Perf.append(Accuracy[i][i])
         return sum(Perf)/self.NSpecies
-
-
+    
     def Run(self): #Running the single run multiple times.
         Now = datetime.datetime.now()
         FolderStamp = 'Run {}{}{} {}.{}.{}'.format(Now.year, Now.month, Now.day, Now.hour, Now.minute, Now.second) #Time stamp.
