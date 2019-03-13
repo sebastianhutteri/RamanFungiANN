@@ -1,6 +1,6 @@
 # RamanFungiANN
 
-This is the code for my bachelor's project "Analysing Raman spectra of crystalline cellulose degradation by fungi using artificial neural networks".
+This is the Python 3 code for my bachelor's project "Analysing Raman spectra of crystalline cellulose degradation by fungi using artificial neural networks".
 
 The data pipeline does the following:
 * Extracts data from .csv-files within a chosen folder
